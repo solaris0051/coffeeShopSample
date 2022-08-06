@@ -4,6 +4,10 @@
  setting for PCs
  **************/
 /* PCs common */
+html {
+	scroll-behavior: smooth
+}
+
 body {
 	font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
 	font-size: 16px;
@@ -26,6 +30,11 @@ a:link, a:visited, a:hover, a:active, a:focus {
 
 a img {
 	border: none;
+	transition: transform 2s;
+}
+
+a img:hover {
+	transform: rotate(360deg);
 }
 
 header {
@@ -237,6 +246,11 @@ section::after {
 	padding-left: 15px;
 	padding-bottom: 15px;
 	float: right;
+	transition: transform 2s;
+}
+
+.img_float_r:hover {
+	transform: rotate(360deg);
 }
 
 .block_flex {
@@ -256,6 +270,11 @@ section::after {
 
 .img_menu img {
 	max-width: 100%;
+	transition: transform 2s;
+}
+
+.img_menu img:hover {
+	transform: rotate(360deg);
 }
 
 .flex_item h3 {
@@ -393,6 +412,10 @@ settings for smartphones
 @media(max-width: 767px) {
 
 	/* common setting for smartphones */
+	html {
+		scroll-behavior: smooth
+	}
+
 	body {
 		font-size: 12px;
 	}
