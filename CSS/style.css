@@ -31,6 +31,8 @@ a:link, a:visited, a:hover, a:active, a:focus {
 a img {
 	border: none;
 	transition: transform 2s;
+	animation-duration: 3s;
+	animation-name: slidein_mgleft;
 }
 
 a img:hover {
@@ -45,6 +47,22 @@ nav {
 	top: 0;
 	right: 15px;
 	position: absolute;
+	animation-duration: 3s;
+	animation-name: slidein_nav;
+}
+
+@keyframes slidein_nav {
+	from {
+		margin-right: 60%;
+	}
+
+	50% {
+		margin-right: 10%;
+	}
+
+	to {
+		margin-right: 0%;
+	}
 }
 
 nav ul {
@@ -95,6 +113,50 @@ footer {
 	margin: 100px 0;
 }
 
+/*common settings for all pages*/
+#page {
+	background-color: #ffffff;
+}
+
+#page header {
+	background-image: url('../images/img_header_bg.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.title_page {
+	margin-bottom: .8em;
+	font-family: 'Pacifico', cursive;
+	font-size: 36px;
+	line-height: 1.2;
+	animation-duration: 3s;
+	animation-name: slidein_mgleft;
+}
+
+@keyframes slidein_mgleft {
+	from {
+		margin-left: 100%;
+	}
+
+	50% {
+		margin-left: 50%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
+}
+
+.index {
+	margin-bottom: 1.2em;
+	padding-left: .5em;
+	border-left: 6px solid #4e3618;
+	font-size: 20px;
+	color: #4e3618;
+	line-height: 1.4;
+}
+
 /* settings for the index-page*/
 #top {
 	background-image: url('../images/coffee-computer.jpg');
@@ -117,18 +179,18 @@ h1.top_message {
 	line-height: 1.4;
 	text-align: center;
 	animation-duration: 3s;
-	animation-name: slidein;
+	animation-name: slidein_topmsg;
 }
 
-@keyframes slidein {
+@keyframes slidein_topmsg {
 	from {
 		margin-left: 100%;
 		width: 400%;
 	}
 
-	75% {
+	50% {
 		font-size: 400%;
-		margin-left: 25%;
+		margin-left: 50%;
 		width: 200%;
 	}
 
@@ -146,6 +208,22 @@ h2.info_message {
 	font-weight: normal;
 	line-height: 1.2;
 	text-align: center;
+	animation-duration: 3s;
+	animation-name: slidein_info_msg;
+}
+
+@keyframes slidein_info_msg {
+	from {
+		margin-left: 200%;
+	}
+
+	50% {
+		margin-left: 50%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
 }
 
 .information {
@@ -157,6 +235,22 @@ h2.info_message {
 	background-color: rgba(255, 255, 255, .4);
 	border-radius: 8px;
 	overflow: auto;
+	animation-duration: 3s;
+	animation-name: slidein_mgtop;
+}
+
+@keyframes slidein_mgtop {
+	from {
+		margin-top: 100%;
+	}
+
+	50% {
+		margin-top: 50%;
+	}
+
+	to {
+		margin-top: 0%;
+	}
 }
 
 .information table {
@@ -175,34 +269,6 @@ h2.info_message {
 .information table td {
 	padding: 0;
 	vertical-align: top;
-}
-
-/*common settings for all pages*/
-#page {
-	background-color: #ffffff;
-}
-
-#page header {
-	background-image: url('../images/img_header_bg.jpg');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-}
-
-.title_page {
-	margin-bottom: .8em;
-	font-family: 'Pacifico', cursive;
-	font-size: 36px;
-	line-height: 1.2;
-}
-
-.index {
-	margin-bottom: 1.2em;
-	padding-left: .5em;
-	border-left: 6px solid #4e3618;
-	font-size: 20px;
-	color: #4e3618;
-	line-height: 1.4;
 }
 
 /* settings for Menu */
