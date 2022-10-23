@@ -195,7 +195,7 @@ h1.top_message {
   font-weight: 550;
   line-height: 1.4;
   text-align: center;
-  animation-duration: 3s;
+  animation-duration: 1s;
   animation-name: slidein_topmsg;
 }
 
@@ -225,11 +225,11 @@ h2.info_message {
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
-  animation-duration: 3s;
-  animation-name: slidein_info_msg;
+  /* animation-duration: 3s;
+  animation-name: slidein_info_msg; */
 }
 
-@keyframes slidein_info_msg {
+/* @keyframes slidein_info_msg {
   from {
     margin-left: 200%;
   }
@@ -241,7 +241,7 @@ h2.info_message {
   to {
     margin-left: 0%;
   }
-}
+} */
 
 .information {
   margin: 0 auto;
@@ -252,11 +252,11 @@ h2.info_message {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   overflow: auto;
-  animation-duration: 3s;
-  animation-name: slidein_mgtop;
+  /* animation-duration: 3s;
+  animation-name: slidein_mgtop; */
 }
 
-@keyframes slidein_mgtop {
+/* @keyframes slidein_mgtop {
   from {
     margin-top: 100%;
   }
@@ -268,7 +268,7 @@ h2.info_message {
   to {
     margin-top: 0%;
   }
-}
+} */
 
 .information table {
   width: 100%;
@@ -399,7 +399,7 @@ aside ul li a:hover {
 /* settings for Contact */
 .block_contact {
   padding: 60px;
-  background-color: gray;
+  background-color: ivory;
 }
 
 .block_contact dl {
