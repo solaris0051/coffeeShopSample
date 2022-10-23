@@ -47,9 +47,9 @@ a:focus {
 
 a img {
   border: none;
-  transition: transform 2s;
+  /* transition: transform 2s;
   animation-duration: 3s;
-  animation-name: slidein_mgleft;
+  animation-name: slidein_mgleft; */
 }
 
 a img:hover {
@@ -64,11 +64,11 @@ nav {
   top: 0;
   right: 15px;
   position: absolute;
-  animation-duration: 3s;
-  animation-name: slidein_nav;
+  /* animation-duration: 3s;
+  animation-name: slidein_nav; */
 }
 
-@keyframes slidein_nav {
+/* @keyframes slidein_nav {
   from {
     margin-right: 60%;
   }
@@ -80,7 +80,7 @@ nav {
   to {
     margin-right: 0%;
   }
-}
+} */
 
 nav ul {
   margin: 0;
@@ -147,11 +147,11 @@ footer {
   font-family: "Pacifico", cursive;
   font-size: 36px;
   line-height: 1.2;
-  animation-duration: 3s;
-  animation-name: slidein_mgleft;
+  /* animation-duration: 3s;
+  animation-name: slidein_mgleft; */
 }
 
-@keyframes slidein_mgleft {
+/* @keyframes slidein_mgleft {
   from {
     margin-left: 100%;
   }
@@ -163,7 +163,7 @@ footer {
   to {
     margin-left: 0%;
   }
-}
+} */
 
 .index {
   margin-bottom: 1.2em;
