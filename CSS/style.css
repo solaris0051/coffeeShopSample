@@ -195,7 +195,7 @@ h1.top_message {
   font-weight: 550;
   line-height: 1.4;
   text-align: center;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
   animation-name: slidein_topmsg;
 }
 
@@ -206,7 +206,6 @@ h1.top_message {
   }
 
   50% {
-    font-size: 400%;
     margin-left: 50%;
     width: 200%;
   }
