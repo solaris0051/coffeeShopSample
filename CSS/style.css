@@ -57,8 +57,8 @@ a img:hover {
 }
 
 .block_logo img {
-	width: 297px;
-	height: 126px;
+  width: 297px;
+  height: 126px;
 }
 
 header {
@@ -519,6 +519,7 @@ settings for smartphones
 
   .block_logo img {
     width: 200px;
+		height: 85px;
   }
 
   /* common settings for all smartphone-pages */
