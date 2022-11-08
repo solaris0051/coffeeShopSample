@@ -205,10 +205,10 @@ h1.top_message {
     width: 100%;
   }
 
-  50% {
+  /* 50% {
     margin-left: 50%;
     width: 100%;
-  }
+  } */
 
   to {
     margin-left: 0%;
