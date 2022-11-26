@@ -38,33 +38,41 @@
           <div class="block_contact">
             <form action="#" method="post">
               <dl>
-                <dt>お名前 <span class="required">必須</span></dt>
-                <dd><input type="text" name="user" required="true" /></dd>
-              </dl>
-              <dl>
-                <dt>メールアドレス <span class="required">必須</span></dt>
-                <dd><input type="email" name="email" required="true" /></dd>
-              </dl>
-              <dl>
+                <dt>
+                  <label for="user"
+                    >お名前:<span class="required">必須</span></label
+                  >
+                </dt>
+                <dd>
+                  <input type="text" name="user" id="user" required="true" />
+                </dd>
+                <dt>
+                  <label for="email"
+                    >メールアドレス <span class="required">必須</span></label
+                  >
+                </dt>
+                <dd>
+                  <input type="email" name="email" id="email" required="true" />
+                </dd>
                 <dt>性別</dt>
                 <dd>
                   <label
                     ><input
                       type="radio"
                       name="gender"
-                      value="男性"
+                      value="male"
                     />男性</label
                   >
+                </dd>
+                <dd>
                   <label
                     ><input
                       type="radio"
                       name="gender"
-                      value="女性"
+                      value="female"
                     />女性</label
                   >
                 </dd>
-              </dl>
-              <dl>
                 <dt>種別</dt>
                 <dd>
                   <select name="genre">
@@ -72,12 +80,16 @@
                     <option value="予約">予約</option>
                   </select>
                 </dd>
-              </dl>
-              <dl>
-                <dt>メッセージ</dt>
-                <dd><textarea rows="6" name="message"></textarea></dd>
-              </dl>
-              <dl>
+                <dt><label for="message">メッセージ</label></dt>
+                <dd>
+                  <textarea
+                    rows="6"
+                    cols="50"
+                    name="message"
+                    id="message"
+                  ></textarea>
+                </dd>
+                <dt></dt>
                 <dd class="btn"><input type="submit" value="送信" /></dd>
               </dl>
             </form>
