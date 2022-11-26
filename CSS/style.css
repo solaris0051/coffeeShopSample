@@ -178,17 +178,6 @@ h2.info_message {
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
-  animation-duration: 0.3s;
-  animation-name: slidein_info_message;
-}
-
-@keyframes slidein_info_message {
-  from {
-    margin-left: 100%;
-  }
-  to {
-    margin-left: 0%;
-  }
 }
 
 .information {
