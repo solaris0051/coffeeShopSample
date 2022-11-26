@@ -69,23 +69,7 @@ nav {
   top: 0;
   right: 15px;
   position: absolute;
-  /* animation-duration: 3s;
-  animation-name: slidein_nav; */
 }
-
-/* @keyframes slidein_nav {
-  from {
-    margin-right: 60%;
-  }
-
-  50% {
-    margin-right: 10%;
-  }
-
-  to {
-    margin-right: 0%;
-  }
-} */
 
 nav ul {
   margin: 0;
@@ -152,23 +136,7 @@ footer {
   font-family: "Pacifico", cursive;
   font-size: 36px;
   line-height: 1.2;
-  /* animation-duration: 3s;
-  animation-name: slidein_mgleft; */
 }
-
-/* @keyframes slidein_mgleft {
-  from {
-    margin-left: 100%;
-  }
-
-  50% {
-    margin-left: 50%;
-  }
-
-  to {
-    margin-left: 0%;
-  }
-} */
 
 .index {
   margin-bottom: 1.2em;
@@ -200,25 +168,6 @@ h1.top_message {
   font-weight: 550;
   line-height: 1.4;
   text-align: center;
-  animation-duration: 0.25s;
-  animation-name: slidein_topmsg;
-}
-
-@keyframes slidein_topmsg {
-  from {
-    margin-left: 100%;
-    width: 100%;
-  }
-
-  /* 50% {
-    margin-left: 50%;
-    width: 100%;
-  } */
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
 
 h2.info_message {
@@ -229,23 +178,18 @@ h2.info_message {
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
-  /* animation-duration: 3s;
-  animation-name: slidein_info_msg; */
+  animation-duration: 2s;
+  animation-name: slidein_info_message;
 }
 
-/* @keyframes slidein_info_msg {
+@keyframes slidein_info_message {
   from {
-    margin-left: 200%;
+    margin-left: 100%;
   }
-
-  50% {
-    margin-left: 50%;
-  }
-
   to {
     margin-left: 0%;
   }
-} */
+}
 
 .information {
   margin: 0 auto;
@@ -256,23 +200,7 @@ h2.info_message {
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 8px;
   overflow: auto;
-  /* animation-duration: 3s;
-  animation-name: slidein_mgtop; */
 }
-
-/* @keyframes slidein_mgtop {
-  from {
-    margin-top: 100%;
-  }
-
-  50% {
-    margin-top: 50%;
-  }
-
-  to {
-    margin-top: 0%;
-  }
-} */
 
 .information table {
   width: 100%;
@@ -519,7 +447,7 @@ settings for smartphones
 
   .block_logo img {
     width: 200px;
-		height: 85px;
+    height: 85px;
   }
 
   /* common settings for all smartphone-pages */
