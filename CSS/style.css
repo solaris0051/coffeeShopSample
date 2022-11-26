@@ -49,10 +49,6 @@ a img {
   border: none;
 }
 
-a img:hover {
-  transform: rotate(360deg);
-}
-
 .block_logo img {
   width: 297px;
   height: 126px;
