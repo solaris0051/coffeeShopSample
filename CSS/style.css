@@ -246,12 +246,14 @@ section::after {
 .img_float_r {
   padding-left: 15px;
   padding-bottom: 15px;
+  width: 300px;
+  height: 200px;
   float: right;
-  transition: transform 2s;
+  transition: transform 1s;
 }
 
 .img_float_r:hover {
-  transform: rotate(360deg);
+  transform: scale(2) translate(0%, -10%);
 }
 
 .block_flex {
@@ -270,12 +272,14 @@ section::after {
 }
 
 .img_menu img {
-  max-width: 100%;
-  transition: transform 2s;
+  max-height: 100%;
+  width: 200px;
+  height: 150px;
+  transition: transform 1s;
 }
 
 .img_menu img:hover {
-  transform: rotate(360deg);
+  transform: scale(1.5) translate(0%, -10%);
 }
 
 .flex_item h3 {
@@ -431,8 +435,8 @@ settings for smartphones
   }
 
   .block_logo img {
-    width: 200px;
-    height: 85px;
+    width: 297px;
+    height: 126px;
   }
 
   /* common settings for all smartphone-pages */
