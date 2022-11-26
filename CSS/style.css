@@ -47,9 +47,6 @@ a:focus {
 
 a img {
   border: none;
-  /* transition: transform 2s;
-  animation-duration: 3s;
-  animation-name: slidein_mgleft; */
 }
 
 a img:hover {
@@ -335,7 +332,6 @@ aside ul li a:hover {
 .block_contact dl dt,
 .block_contact dl dd {
   padding: 0.5em 0;
-  /* display: table-cell; */
 }
 
 .block_contact dl dt {
