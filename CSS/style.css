@@ -19,10 +19,22 @@ body {
     メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif;
   font-size: 16px;
   line-height: 1.8;
-  background-color: #eeeeee;
+  background-color: #faedb7;
   margin: 0;
   padding: 0;
   color: #000000;
+}
+
+#sample {
+	color: #4e3618;
+  opacity: 32%;
+	position: absolute;
+	padding: 0;
+	margin: 0;
+	top: 25%;
+	left:10%;
+  font-size: 150px;
+  transform: rotate(-15deg);
 }
 
 h1,
@@ -112,9 +124,9 @@ footer {
   margin: 100px 0;
 }
 
-/*common settings for all pages*/
+/*common settings for all pages except index*/
 #page {
-  background-color: #ffffff;
+  background-color: #faedb7;
 }
 
 #page header {
@@ -129,15 +141,6 @@ footer {
   font-family: "Pacifico", cursive;
   font-size: 36px;
   line-height: 1.2;
-}
-
-.index {
-  margin-bottom: 1.2em;
-  padding-left: 0.5em;
-  border-left: 6px solid #4e3618;
-  font-size: 20px;
-  color: #4e3618;
-  line-height: 1.4;
 }
 
 /* settings for the index-page*/
@@ -208,6 +211,15 @@ main.column_2 {
   width: 75%;
   float: left;
   box-sizing: border-box;
+}
+
+.index {
+  margin-bottom: 1.2em;
+  padding-left: 0.5em;
+  border-left: 6px solid #4e3618;
+  font-size: 20px;
+  color: #4e3618;
+  line-height: 1.4;
 }
 
 h2.index {
@@ -326,7 +338,6 @@ aside ul li a:hover {
   line-height: 1.8;
   width: 100%;
   padding: 60px;
-  /* display: table; */
 }
 
 .block_contact dl dt,
@@ -435,12 +446,12 @@ settings for smartphones
     height: 126px;
   }
 
-  /* common settings for all smartphone-pages */
+  /* Menu pages settings for smartphones */
+
   .index {
     font-size: 16px;
   }
 
-  /* Menu pages settings for smartphones */
   main.column_2 {
     padding-right: 0;
     width: 100%;
@@ -464,7 +475,7 @@ settings for smartphones
 
   .flex_item {
     padding: 0 5px 15px;
-    wisth: 50%;
+    width: 50%;
   }
 
   .flex_item h3 {
