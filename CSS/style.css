@@ -31,6 +31,7 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
+	width: 100%;
   top: 25%;
   left: 10%;
   font-size: 150px;
@@ -64,6 +65,7 @@ a img {
 .block_logo img {
   width: 297px;
   height: 126px;
+	aspect-ratio: auto 297/126;
 }
 
 header {
@@ -213,7 +215,7 @@ main.column_2 {
   box-sizing: border-box;
 }
 
-.index {
+.idx_menu {
   margin-bottom: 1.2em;
   padding-left: 0.5em;
   border-left: 6px solid #4e3618;
@@ -222,7 +224,7 @@ main.column_2 {
   line-height: 1.4;
 }
 
-h2.index {
+h2.idx_menu {
   color: white;
   text-align: center;
   width: 100%;
@@ -257,6 +259,7 @@ section::after {
   width: 300px;
   height: 200px;
   float: right;
+	aspect-ratio: auto 3/2;
   transition: transform 1s;
 }
 
@@ -283,6 +286,7 @@ section::after {
   max-height: 100%;
   width: 200px;
   height: 150px;
+	aspect-ratio: auto 200/150;
   transition: transform 1s;
 }
 
@@ -307,7 +311,7 @@ aside ul {
 
 aside ul li {
   margin-bottom: 5px;
-  color: green;
+  color: #007500;
   font-size: 18px;
   font-weight: bold;
 }
@@ -329,7 +333,9 @@ aside ul li a:hover {
 /* settings for Contact */
 .block_contact {
   padding: 60px;
+	opacity: 90%;
   background-color: #7fffd4;
+	border-radius: 15px;
 }
 
 .block_contact dl {
@@ -432,6 +438,14 @@ settings for smartphones
     font-size: 12px;
   }
 
+	.contents {
+	  margin: 0;
+	}
+
+	#sample {
+	  font-size: 80px;
+	}
+
   nav {
     position: relative;
   }
@@ -444,11 +458,12 @@ settings for smartphones
   .block_logo img {
     width: 297px;
     height: 126px;
+		aspect-ratio: auto 297/126;
   }
 
   /* Menu pages settings for smartphones */
 
-  .index {
+  .idx_menu {
     font-size: 16px;
   }
 
@@ -468,7 +483,8 @@ settings for smartphones
 
   .img_float_r {
     padding-left: 0;
-    width: 100%;
+    /* width: 100%; */
+		aspect-ratio: auto 3/2;
     float: none;
     display: block;
   }
@@ -485,6 +501,12 @@ settings for smartphones
   .flex_item p {
     font-size: 10px;
   }
+
+	.img_menu img {
+	  width: 120px;
+	  height: 90px;
+		aspect-ratio: auto 4/3;
+	}
 
   /* Access pages settings for smartphones */
   .block_access iframe {
