@@ -1,10 +1,10 @@
+@charset "UTF-8";
+
 @font-face {
   font-family: "Pacifico";
   src: url("../font/Pacifico-Regular.ttf");
   font-display: swap;
 }
-
-@charset "utf-8";
 
 /**************
  setting for PCs
@@ -400,8 +400,6 @@ input[type="submit"]:hover {
 }
 
 select {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   padding: 0.3em 3em 0.3em 0.5em;
   font-size: 16px;
   border: 1px solid #aaaaaa;
@@ -417,8 +415,6 @@ select::ms-expand {
 }
 
 textarea {
-  -webkit-appearance: none;
-  -moz-appearance: none;
   padding: 0.5em;
   font-size: 18px;
   border: 1px solid #aaaaaa;
