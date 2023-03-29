@@ -1,109 +1,84 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self';font-src 'self';style-src 'self'"
-    />
-    <title>Contact ❘ カフェマナビー Cafe manaby(Kawasaki)</title>
-    <meta name="description" content="Contact" />
-    <link rel="icon" href="./images/favicon.ico" />
-    <link rel="stylesheet" href="./CSS/style.css" type="text/css" media="all" />
-  </head>
 
-  <body id="page">
-    <p id="sample">SAMPLE</p>
-    <header>
-      <div class="container">
-        <div class="block_logo">
-          <a href="index.html"
-            ><img src="./images/img_logo.webp" alt="img_logo"
-          /></a>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="menu.html">Menu</a></li>
-            <li><a href="access.html">Access</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self';font-src 'self';style-src 'self'" />
+  <title>Contact | Coffee Shop</title>
+  <meta name="description" content="Contact" />
+  <link rel="icon" href="./images/favicon.ico" />
+  <link rel="stylesheet" href="./CSS/style.css" type="text/css" media="all" />
+</head>
+
+<body id="page">
+  <p id="sample">SAMPLE</p>
+  <header>
+    <div class="container">
+      <div class="block_logo">
+        <a href="index.html"><img src="./images/img_logo.webp" alt="img_logo" /></a>
       </div>
-    </header>
-    <div class="contents">
-      <div class="container">
-        <main>
-          <h1 class="title_page">Contact</h1>
-          <div class="block_contact">
-            <form action="https://formspree.io/f/mbjegryv" method="post">
-              <dl>
-                <dt>
-                  <label for="user"
-                    >お名前:<span class="required">必須</span></label
-                  >
-                </dt>
-                <dd>
-                  <input type="text" name="user" id="user" required="true" />
-                </dd>
-                <dt>
-                  <label for="email"
-                    >メールアドレス <span class="required">必須</span></label
-                  >
-                </dt>
-                <dd>
-                  <input type="email" name="email" id="email" required="true" />
-                </dd>
-                <dt>性別</dt>
-                <dd>
-                  <label
-                    ><input
-                      type="radio"
-                      name="gender"
-                      value="male"
-                    />男性</label
-                  >
-                </dd>
-                <dd>
-                  <label
-                    ><input
-                      type="radio"
-                      name="gender"
-                      value="female"
-                    />女性</label
-                  >
-                </dd>
-                <dt>種別</dt>
-                <dd>
-                  <select name="genre">
-                    <option value="お問い合わせ">お問い合わせ</option>
-                    <option value="予約">予約</option>
-                  </select>
-                </dd>
-                <dt><label for="message">メッセージ</label></dt>
-                <dd>
-                  <textarea
-                    rows="6"
-                    cols="50"
-                    name="message"
-                    id="message"
-                  ></textarea>
-                </dd>
-                <dt></dt>
-                <dd class="btn"><input type="submit" value="送信" /></dd>
-              </dl>
-            </form>
-          </div>
-        </main>
-      </div>
+      <nav>
+        <ul>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="access.html">Access</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <footer>
-      <div class="container">
-        <p class="copyright">
-          This product is dedicated to Mr. I.<br />(C) Since 2021
-          manaby(Kawasaki). Improved by Y.K
-        </p>
-      </div>
-    </footer>
-  </body>
+  </header>
+  <div class="contents">
+    <div class="container">
+      <main>
+        <h1 class="title_page">Contact</h1>
+        <div class="block_contact">
+          <form action="https://formspree.io/f/mbjegryv" method="post">
+            <dl>
+              <dt>
+                <label for="user">お名前:<span class="required">必須</span></label>
+              </dt>
+              <dd>
+                <input type="text" name="user" id="user" required="true" />
+              </dd>
+              <dt>
+                <label for="email">メールアドレス <span class="required">必須</span></label>
+              </dt>
+              <dd>
+                <input type="email" name="email" id="email" required="true" />
+              </dd>
+              <dt>性別</dt>
+              <dd>
+                <label><input type="radio" name="gender" value="male" />男性</label>
+              </dd>
+              <dd>
+                <label><input type="radio" name="gender" value="female" />女性</label>
+              </dd>
+              <dt>種別</dt>
+              <dd>
+                <select name="genre">
+                  <option value="お問い合わせ">お問い合わせ</option>
+                  <option value="予約">予約</option>
+                </select>
+              </dd>
+              <dt><label for="message">メッセージ</label></dt>
+              <dd>
+                <textarea rows="6" cols="50" name="message" id="message"></textarea>
+              </dd>
+              <dt></dt>
+              <dd class="btn"><input type="submit" value="送信" /></dd>
+            </dl>
+          </form>
+        </div>
+      </main>
+    </div>
+  </div>
+  <footer>
+    <div class="container">
+      <p class="copyright">
+        This product is dedicated to Mr. I.<br />(C) Since 2021 improved by Y.K
+      </p>
+    </div>
+  </footer>
+</body>
+
 </html>
